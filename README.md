@@ -29,14 +29,14 @@
 
         		 |Call of Duty: Black Ops 2|
 		 PLUTONIUM INSTALLATION & SERVER INFORMATION
-===================================================================================
-			      General Information
-===================================================================================
+
+# General Information
+
 Hey, I'm SpicySpider. I'm a former decorated double shotgun ranked, easter egg
 completionist, Playstation 3 pleb. I was able to log into my old BO2 account and find some of my statistics, near the 
 end of playing zombies I didnt care as much and didnt do as well. Below is what I
 found on my summary:
-				Career Stats:
+```				Career Stats:
 		Kills: 					201422
 		Bullets Fired: 				1140249
 		Downs: 					3195
@@ -49,7 +49,7 @@ found on my summary:
 		Doors: 					2360
 		Accuracy: 				0.86
 		Miles Traveled:				3414
-
+```
 Since then, I've started college as an Electrical Engineer and have gotten more 
 into PCs, technology, and general coding. The purpose of this document is mostly 
 for general purpose guides and specifically how I run my servers for plutonium. 
@@ -74,17 +74,16 @@ https://www.twitch.tv/spicyspidertv
 Donate(directs to paypal donation page):
 https://rb.gy/2zyx6b
 
-===================================================================================
-			  Guide: How to Install Plutonium
-===================================================================================
+
+# Guide: How to Install Plutonium
+
 
 I don't think I can really make it any easier than plutonium says so:
 https://forum.plutonium.pw/topic/2819/how-to-install-update-plutonium-t6
 
 
-===================================================================================
-			      Guide: Server Setup
-===================================================================================
+# Server Setup
+
 
 https://forum.plutonium.pw/topic/13/plutot6-server-set-up-guide
 If you need any help go to the Plutonium Discord: https://discord.gg/hbrmKA
@@ -101,9 +100,9 @@ you'll use UDP protocol.
 https://portforward.com/router.htm
 
 
-===================================================================================
-			 Guide: Modding and GSC Code
-===================================================================================
+
+# Modding and GSC Code
+
 Finally we get to the more difficult part. GSC coding is interesting. You can always
 steal code from someone for like Zombies++, Zombies Reimagined, or even just the
 restart mod from Jezuzlizard (link below). 
@@ -169,16 +168,6 @@ it out my simply adding two // behind it. should look like this:
 Now since you just commented out the line that lets you choose maps, you need to 
 add something else to allow you to use town. The lines you need to add are below.
 Just copy and paste this below the commented out sv_maprotation.
-
-
-//Survival on Town
-ui_zm_mapstartlocation "town"
-ui_gametype "zstandard"
-ui_mapname "zm_transit"
-mapname "zm_transit"
-g_gametype "zstandard"
-ui_zm_gamemodegroup "zsurvival"
-devmap "zm_transit"
 
 ===================================================================================
 				  Final thoughts
