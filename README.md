@@ -148,9 +148,9 @@ Enjoy.
 https://drive.google.com/file/d/1fXkeZGeHYtDsnPfTkXIXXTRD0tQnEzqS/view?usp=sharing
 
 
-===================================================================================
-				    TOWN FIX
-===================================================================================
+
+# TOWN FIX
+
 Lastly, I'm kinda conflicted if I should be sharing this. Apperently it's kind
 of a big deal to plutonium as I personally talked to someone who got banned for
 looking into this. I don't really know what to believe all I know is just keep
@@ -166,12 +166,12 @@ it out my simply adding two // behind it. should look like this:
 //sv_maprotation "gametype zclassic loc transit map zm_transit"
 
 Now since you just commented out the line that lets you choose maps, you need to 
-add something else to allow you to use town. The lines you need to add are below.
-Just copy and paste this below the commented out sv_maprotation.
+add something else to allow you to use town. The lines you need to add are in 
+this repository.
 
-===================================================================================
-				  Final thoughts
-===================================================================================
+
+# Final thoughts
+
 Why am I done running servers? This was never really for other people, this project
 was for me. It was mostly a self purposed challenge and I learned a lot. Was this
 information useless? maybe... but I met some really cool people along the way.
@@ -187,6 +187,7 @@ I send my sincerest gratitude to RaidMax, Luigistyle, Amused, JezuzLizard, Ashto
 Swifty, JBleezy, CodFishCody, Joey Winchester, 💙💜Brandon💜💙, and MANY more.
 Honestly, if I hadn't gained the following I did I would have never spent this 
 much time on the servers.
+
 Below were some of the patches, this was my personal list and things I wanted to do
 were eventually listed below. Honestly, This is maybe 10 percent of the actual fixes
 I did with the servers but I didnt think every little change needed to be reported.
@@ -197,9 +198,9 @@ Stay Spicy
 
 
 
-===================================================================================
-				  Major Patches
-===================================================================================
+
+# Major Patches
+```
 Issues				   		 Date			Status
 patch !discord command with aliases		8/31/2020		Live
 add discord to webfront				8/31/2020		Live
@@ -223,3 +224,4 @@ ________________________________________________________________________________
 More Servers					7/29/2020		Live
 Fast Restart blackscreen			7/25/2020		Live
 Edited Reimagined GSC				7/23/2020		Live
+```
